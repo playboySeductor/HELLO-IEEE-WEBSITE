@@ -1,2 +1,10 @@
 # HELLO-IEEE-WEBSITE
-Hello IEEE !!!
+1. Add logo to navbar and footer
+2. Modify the footer section
+3. Give correct location in map
+4. Add a register button in section_1
+5. Add all the associations in section_5
+6. Shift the hamburger navbar to right side in mobile view
+7. Fix the tracks section
+8. Paste all the required images and content
+9. Link all the social media links properly
