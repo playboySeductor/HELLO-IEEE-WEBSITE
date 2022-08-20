@@ -30,6 +30,58 @@ TemplateMo 575 Leadership Event
 https://templatemo.com/tm-575-leadership-event
 
 -->
+<style>
+  .text {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+/* Buttons */
+
+.btn {
+  width: 150px;
+  height: 50px;
+  z-index: 1;
+  margin: 0px 12px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.accept-btn {
+  border: 2px solid #0284c7;
+  color: #0284c7;
+  transition: all 0.3s ease;
+
+  border-color: #0284c7;
+}
+.accept-btn:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  -webkit-transform: scale(0.1);
+  transform: scale(0.1);
+}
+.accept-btn:hover {
+  color: #fff;
+}
+.accept-btn:hover:after {
+  background: #0284c7;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  border-radius: 20px;
+}
+</style>
     </head>
     
     <body>
@@ -95,12 +147,14 @@ https://templatemo.com/tm-575-leadership-event
                                 <h1 class="text-white mb-4"><u class="text-info">"Hello"</u> - IEEE 2022</h1>
 
                                 <div class="d-flex justify-content-center align-items-center">
+                                    
                                     <span class="date-text">September 14, 2022</span>
 
                                     <span class="location-text">Jadavpur University</span>
                                 </div>
-
-                                <!-- <a href="#section_2" class="custom-link bi-arrow-down arrow-icon"></a> -->
+                                <br>
+                                <br>
+                                <button class="btn accept-btn">Accept</button>
                             </div>
                         </div>
                     </div>
