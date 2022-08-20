@@ -4569,7 +4569,7 @@ fieldset:disabled .btn {
 .navbar>.container-sm,
 .navbar>.container-xl,
 .navbar>.container-xxl {
-    /* display: flex; */
+    display: flex;
     flex-wrap: inherit;
     align-items: center;
     justify-content: space-between
@@ -4586,8 +4586,9 @@ fieldset:disabled .btn {
 
 .navbar-nav {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+    padding-left: 0;
     margin-bottom: 0;
     list-style: none
 }
