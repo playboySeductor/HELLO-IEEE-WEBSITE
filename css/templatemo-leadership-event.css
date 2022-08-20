@@ -329,10 +329,11 @@ strong {
   border: 0;
   padding: 0;
   cursor: pointer;
-  margin: 0;
+  margin: 0px;
   width: 30px;
   height: 35px;
   outline: none;
+  float: right;
 }
 
 .navbar-toggler:focus {
@@ -367,6 +368,7 @@ strong {
   width: 30px;
   height: 2px;
   position: relative;
+  float: right;
 }
 
 .navbar-toggler .navbar-toggler-icon:before,
