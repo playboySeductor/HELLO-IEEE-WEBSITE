@@ -1,7 +1,7 @@
 # HELLO-IEEE-WEBSITE
 1. Add logo to navbar and footer
 2. Modify the footer section -> Done
-3. Give correct location in map
+3. Give correct location in map -> Done
 4. Add a register button in section_1
 5. Add all the associations in section_5
 6. Shift the hamburger navbar to right side in mobile view
