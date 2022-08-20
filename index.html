@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="sponsors.css">
         <link rel="icon" href="/images/maria-stewart-p4tj0g-_aMM-unsplash.jpg" type="image/gif" sizes="16x16">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +23,7 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-leadership-event.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
         
 <!--
 
@@ -30,6 +32,8 @@ TemplateMo 575 Leadership Event
 https://templatemo.com/tm-575-leadership-event
 
 -->
+
+
 <style>
   .text {
   font-family: "Lato", sans-serif;
@@ -81,11 +85,113 @@ https://templatemo.com/tm-575-leadership-event
   transform: scale(1);
   border-radius: 20px;
 }
+h2{
+  text-align:center;
+  padding: 20px;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.logo-carousel {
+  overflow: inherit;
+  border-top: 1px solid #353535;
+  border-bottom: 1px solid #353535;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-track::before,
+.slick-track::after {
+  display: table;
+  content: '';
+}
+
+.slick-track::after {
+  clear: both;
+}
+
+.slick-track {
+  padding: 1rem 0;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  background: url(https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/arrow.svg?sanitize=true) center no-repeat;
+  color: #fff;
+  filter: invert(77%) sepia(32%) saturate(1%) hue-rotate(344deg) brightness(105%) contrast(103%);
+  border: none;
+  width: 2rem;
+  height: 1.5rem;
+  text-indent: -10000px;
+  margin-top: -16px;
+  z-index: 99;
+}
+
+.slick-arrow.slick-next {
+  right: -40px;
+  transform: rotate(180deg);
+}
+
+.slick-arrow.slick-prev {
+  left: -40px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .slick-arrow {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+
+  
+.row {
+  overflow: hidden;
+}  
+
+/* JsFiddle Example only/don't use */
+.logo-carousel {
+  margin-top: 32px;
+}
+
 </style>
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- jQuery first, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Slick Slider JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
     </head>
     
     <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
 
@@ -704,7 +810,7 @@ https://templatemo.com/tm-575-leadership-event
                 </div>
             </section> -->
 
-              <!-- <section class="pricing section-padding" id="section_5">
+               <section class="pricing section-padding" id="section_5">
                 <div class="container">
                     <div class="row">
 
@@ -742,14 +848,13 @@ https://templatemo.com/tm-575-leadership-event
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
                             <div class="pricing-thumb bg-white shadow-lg">                                
                                 <div class="pricing-title-wrap d-flex align-items-center">
 
-                                    <h4 class="pricing-title text-white mb-0">Gold</h4>
+                                    <h4 class="pricing-title text-white mb-0">Early Bird</h4>
 
-                                    <h5 class="pricing-small-title text-white mb-0 ms-auto">$840</h5>
+                                    <h5 class="pricing-small-title text-white mb-0 ms-auto">$640</h5>
                                 </div>
 
                                 <div class="pricing-body">
@@ -758,11 +863,71 @@ https://templatemo.com/tm-575-leadership-event
                                     </p>
 
                                     <p>
-                                        <i class="bi-boombox me-2"></i> Group Meetings + After Party
+                                        <i class="bi-controller me-2"></i> After Party
                                     </p>
 
                                     <p>
-                                        <i class="bi-chat-square me-2"></i> 24/7 Support + Instant Chats
+                                        <i class="bi-chat-square me-2"></i> 24/7 Support
+                                    </p>
+
+                                    <div class="border-bottom pb-3 mb-4"></div>
+
+                                    <p>Quick group meetings for multiple teams</p>
+
+                                    <a class="custom-btn btn mt-3" href="#">Buy Tickets</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
+                            <div class="pricing-thumb bg-white shadow-lg">                                
+                                <div class="pricing-title-wrap d-flex align-items-center">
+
+                                    <h4 class="pricing-title text-white mb-0">Early Bird</h4>
+
+                                    <h5 class="pricing-small-title text-white mb-0 ms-auto">$640</h5>
+                                </div>
+
+                                <div class="pricing-body">
+                                    <p>
+                                        <i class="bi-cup me-2"></i> All-Day Coffee + Snacks
+                                    </p>
+
+                                    <p>
+                                        <i class="bi-controller me-2"></i> After Party
+                                    </p>
+
+                                    <p>
+                                        <i class="bi-chat-square me-2"></i> 24/7 Support
+                                    </p>
+
+                                    <div class="border-bottom pb-3 mb-4"></div>
+
+                                    <p>Quick group meetings for multiple teams</p>
+
+                                    <a class="custom-btn btn mt-3" href="#">Buy Tickets</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
+                            <div class="pricing-thumb bg-white shadow-lg">                                
+                                <div class="pricing-title-wrap d-flex align-items-center">
+
+                                    <h4 class="pricing-title text-white mb-0">Early Bird</h4>
+
+                                    <h5 class="pricing-small-title text-white mb-0 ms-auto">$640</h5>
+                                </div>
+
+                                <div class="pricing-body">
+                                    <p>
+                                        <i class="bi-cup me-2"></i> All-Day Coffee + Snacks
+                                    </p>
+
+                                    <p>
+                                        <i class="bi-controller me-2"></i> After Party
+                                    </p>
+
+                                    <p>
+                                        <i class="bi-chat-square me-2"></i> 24/7 Support
                                     </p>
 
                                     <div class="border-bottom pb-3 mb-4"></div>
@@ -774,44 +939,35 @@ https://templatemo.com/tm-575-leadership-event
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="pricing-thumb bg-white shadow-lg">                                
-                                <div class="pricing-title-wrap d-flex align-items-center">
-
-                                    <h4 class="pricing-title text-white mb-0">Platinum</h4>
-
-                                    <h5 class="pricing-small-title text-white mb-0 ms-auto">$1,240</h5>
-                                </div>
-
-                                <div class="pricing-body">
-                                    <p>
-                                        <i class="bi-cash me-2"></i> Cashback $200
-                                    </p>
-
-                                    <p>
-                                        <i class="bi-boombox me-2"></i> Private Meetings + After Party
-                                    </p>
-
-                                    <p>
-                                        <i class="bi-chat-square me-2"></i> 24/7 Support + Instant Chats
-                                    </p>
-
-                                    <div class="border-bottom pb-3 mb-4"></div>
-
-                                    <p>group talks and private chats for multiple teams</p>
-
-                                    <a class="custom-btn btn mt-3" href="#">Buy Tickets</a>
-                                </div>
-                            </div>
-                        </div>
+                       
 
                     </div>
                 </div>
-            </section> -->
+            </section> 
 
-            <section class="schedule section-padding" id="section_5">
-                <h2>in association with</h2>
-            </section>
+            <!-- <section id="clients" class="wow fadeInUp">
+                <div class="container">
+          
+                  <header class="section-header">
+                    <h3>Sponsors</h3>
+                  </header>
+          
+                  <div class="owl-carousel clients-carousel">
+                    <img src="images/team-2.jpg" alt="">
+                    <img src="images/team-4.jpg" alt="">
+                    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgHGP8rMEc8eHYPciSVOjfRzsL-yqq_knUrfss7s_spus43RR2tXK5vfNkEowMBr7YPPURg1-hfRIRKPabUrJtFj0uhMM5f3nHPX16F2ALfm01Nb5ozCM6EDlU8qdSGTTKDNeye2-3kNOUuhwiRpUclqL2p1mkT6j_msp8F_200lbD_L_IdFtvSAcYp=w512-h640" alt="">
+                    <img src="images/testimonial-2.jpg" alt="">
+                    <img src="images/testimonial-3.jpg" alt="">
+                    <img src="img/dc.png" alt="">
+                    <img src="img/intel.png" alt="">
+                    <img src="img/ya.png" alt="">
+                  </div>
+          
+                </div>
+              </section> -->
+              
+            
+              
 
             <section class="venue section-padding" id="section_6">
                 <div class="container">
@@ -956,6 +1112,29 @@ https://templatemo.com/tm-575-leadership-event
         <script src="js/jquery.sticky.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
-
+       <script>
+        $(document).ready(function(){
+            $('.customer-logos').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
+        });
+    </script>
     </body>
 </html>
