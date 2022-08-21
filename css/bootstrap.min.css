@@ -8620,7 +8620,8 @@ fieldset:disabled .btn {
 
 .text-info {
     --bs-text-opacity: 1;
-    color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important
+    /* color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important */
+    color: #B43335;
 }
 
 .text-warning {
