@@ -762,6 +762,10 @@ strong {
   background: var(--section-bg-color);
 }
 
+.pricing {
+  background: var(--section-bg-color);
+}
+
 .venue-thumb {
   border-radius: 20px;
   position: relative;
