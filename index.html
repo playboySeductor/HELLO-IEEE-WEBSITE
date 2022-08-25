@@ -183,69 +183,74 @@ https://templatemo.com/tm-575-leadership-event
             margin-top: 32px;
         }
 
-        *{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  color: #2C4A64;
-}
-.main{
-  height: 200px;
-  background-size: cover;
-  /* background: url('https://i.ibb.co/jfLZFhm/Bitmap.png') no-repeat top center; */
-}
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #2C4A64;
+        }
 
-h1{
-  text-align: center;
-  font-weight: 400;
-  font-size: 60px;
-  padding-top: 30px;
-}
+        .main {
+            height: 200px;
+            background-size: cover;
+            /* background: url('https://i.ibb.co/jfLZFhm/Bitmap.png') no-repeat top center; */
+        }
 
-.countdown{
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-.countdown > div{
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  box-shadow: 1px 1px 15px rgba(0,0,0,0.25);
-  width: 80px;
-  height: 80px;
-  border-radius: 5px;
-}
-.number {
-  font-weight: 500;
-  font-size: 44px;
-  color: #273053;
-}
+        h1 {
+            text-align: center;
+            font-weight: 400;
+            font-size: 60px;
+            padding-top: 30px;
+        }
 
-div span:last-of-type{
-  font-size: 12px;
-}
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
 
-@media screen and (max-width:600px){
-  h1{
-    font-size: 40px;
-  }
-  .countdown{
-    gap: 10px;
-  }
-  .countdown > div{
-  width: 60px;
-  height: 80px;
-}
-  
-  .number {
-  font-size: 34px;
-}
-}
+        .countdown>div {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+            width: 80px;
+            height: 80px;
+            border-radius: 5px;
+        }
+
+        .number {
+            font-weight: 500;
+            font-size: 44px;
+            color: #273053;
+        }
+
+        /* div span:last-of-type {
+            font-size: 12px;
+        } */
+
+        @media screen and (max-width:600px) {
+            h1 {
+                font-size: 40px;
+            }
+
+            .countdown {
+                gap: 10px;
+            }
+
+            .countdown>div {
+                width: 60px;
+                height: 80px;
+            }
+
+            .number {
+                font-size: 34px;
+            }
+        }
     </style>
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -346,14 +351,14 @@ div span:last-of-type{
 
             <div class="video-wrap">
                 <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                    <source src="videos/pexels-pavel-danilyuk-8716790.mp4" type="video/mp4">
+                    <source src="HELLO IEEE.mp4" type="video/mp4">
 
                     Your browser does not support the video tag.
                 </video>
             </div>
         </section>
 
-                 <!-- timer section  -->
+        <!-- timer section  -->
         <!-- <section>
             <p id="demo"></p>
 
@@ -388,35 +393,35 @@ div span:last-of-type{
                 }, 1000);
             </script>
         </section> -->
-            <section>
-                <div class="main">
-                    <h1 style="color: #B43335;">EVENT STARTS IN</h1>
-                    <div class="countdown">
-                      <div>
+        <section>
+            <div class="main">
+                <h1 style="color: #B43335;">EVENT STARTS IN</h1>
+                <div class="countdown">
+                    <div>
 
                         <span class="number months"></span>
-                        <span>Months</span>
-                      </div>
-                       <div>
-                        <span class="number days"></span>
-                        <span>Days</span>
-                      </div>
-                       <div>
-                        <span class="number hours"></span>
-                        <span>Hours</span>
-                      </div>
-                       <div>
-                        <span class="number minutes"></span>
-                        <span>Minutes</span>
-                      </div>
-                       <div>
-                        <span class="number seconds"></span>
-                        <span>Seconds</span>
-                      </div>
+                        <span style="font-size: 12px;">Months</span>
                     </div>
-                  </div>
-                <script src="timer.js"></script>
-            </section>
+                    <div>
+                        <span class="number days"></span>
+                        <span style="font-size: 12px;">Days</span>
+                    </div>
+                    <div>
+                        <span class="number hours"></span>
+                        <span style="font-size: 12px;">Hours</span>
+                    </div>
+                    <div>
+                        <span class="number minutes"></span>
+                        <span style="font-size: 12px;">Minutes</span>
+                    </div>
+                    <div>
+                        <span class="number seconds"></span>
+                        <span style="font-size: 12px;">Seconds</span>
+                    </div>
+                </div>
+            </div>
+            <script src="timer.js"></script>
+        </section>
 
         <!-- <section class="highlight">
                 <div class="container">
@@ -487,7 +492,7 @@ div span:last-of-type{
                     </div>
 
                     <div class="col-lg-6 col-12 mt-5 mt-lg-0">
-                        <h4>Thus, "Hello - IEEE" is a novel event that fits the above description down to the last
+                        <h4>Thus, "hello" - IEEE is a novel event that fits the above description down to the last
                             syllable.</h4>
 
                         <div class="avatar-group border-top py-5 mt-5">
@@ -527,7 +532,7 @@ div span:last-of-type{
                         <div class="speakers-thumb">
                             <img src="eric.png" class="img-fluid speakers-image" alt="">
 
-                            <small class="speakers-featured-text">Chief Speaker</small>
+                            <!-- <small class="speakers-featured-text">Chief Speaker</small> -->
 
                             <div class="speakers-info">
 
@@ -706,13 +711,16 @@ div span:last-of-type{
 
                                                     <div class="d-flex align-items-center mt-4">
                                                         <div class="avatar-grotracksup d-flex">
-                                                            <img src="images/avatar/happy-asian-man-standing-with-arms-crossed-grey-wall.jpg"
+                                                            <img src="eric.png"
                                                                 class="img-fluid avatar-image" alt="">
 
-                                                            <div class="ms-3">
+                                                                <img src="sh1.png"
+                                                                class="img-fluid avatar-image" alt="">
+
+                                                            <!-- <div class="ms-3">
                                                                 Logan Wilson
                                                                 <p class="speakers-text mb-0">CEO / Founder</p>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
 
                                                         <span class="mx-3 mx-lg-5">
@@ -735,7 +743,7 @@ div span:last-of-type{
                                                 </div>
 
                                                 <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                                    <h4 class="mb-2">Quiz</h4>
+                                                    <h4 class="mb-2">IEEE - nQuizitive</h4>
                                                     <h6 class="mb-2">Prelims and Finale</h6>
 
                                                     <p>To engage the best competitive side of the participants, the
@@ -747,13 +755,13 @@ div span:last-of-type{
 
                                                     <div class="d-flex align-items-center mt-4">
                                                         <div class="avatar-group d-flex">
-                                                            <img src="images/avatar/portrait-good-looking-brunette-young-asian-woman.jpg"
+                                                            <img src="anon.jpg"
                                                                 class="img-fluid avatar-image" alt="">
 
-                                                            <div class="ms-3">
+                                                            <!-- <div class="ms-3">
                                                                 Natalie
                                                                 <p class="speakers-text mb-0">Event Planner</p>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
 
                                                         <span class="mx-3 mx-lg-5">
@@ -791,13 +799,13 @@ div span:last-of-type{
 
                                                     <div class="d-flex align-items-center mt-4">
                                                         <div class="avatar-group d-flex">
-                                                            <img src="images/avatar/senior-man-white-sweater-eyeglasses.jpg"
+                                                            <img src="anon.jpg"
                                                                 class="img-fluid avatar-image" alt="">
 
-                                                            <div class="ms-3">
+                                                            <!-- <div class="ms-3">
                                                                 Thomas
                                                                 <p class="speakers-text mb-0">Startup Coach</p>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
 
                                                         <span class="mx-3 mx-lg-5">
