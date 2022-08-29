@@ -311,7 +311,7 @@ https://templatemo.com/tm-575-leadership-event
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 100%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
@@ -328,6 +328,121 @@ https://templatemo.com/tm-575-leadership-event
   text-decoration: none;
   cursor: pointer;
 }
+.faq-section {
+    background: #fdfdfd;
+    min-height: 100vh;
+    padding: 10vh 0 0;
+}
+.faq-title h2 {
+  position: relative;
+  margin-bottom: 45px;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+}
+.faq-title h2::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 60px;
+    height: 2px;
+    background: #E91E63;
+    bottom: -25px;
+    margin-left: -30px;
+}
+.faq-title p {
+  padding: 0 190px;
+  margin-bottom: 10px;
+}
+
+.faq {
+  background: #FFFFFF;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+.faq .card {
+  border: none;
+  background: none;
+  border-bottom: 1px dashed #CEE1F8;
+}
+
+.faq .card .card-header {
+  padding: 0px;
+  border: none;
+  background: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+    background: rgba(233, 30, 99, 0.1);
+    padding-left: 10px;
+}
+.faq .card .card-header .faq-title {
+  width: 100%;
+  text-align: left;
+  padding: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #3B566E;
+  text-decoration: none !important;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.faq .card .card-header .faq-title .badge {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 14px;
+  float: left;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-align: center;
+  background: #E91E63;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.faq .card .panel {
+  padding: 30px;
+  padding-left: 35px;
+  padding-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  border-top: 1px solid #F3F8FF;
+}
+
+.faq .card .panel p {
+  margin-bottom: 14px;
+}
+
+@media (max-width: 991px) {
+  .faq {
+    margin-bottom: 30px;
+  }
+  .faq .card .card-header .faq-title {
+    line-height: 26px;
+    margin-top: 10px;
+  }
+}
+
     </style>
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -590,8 +705,7 @@ https://templatemo.com/tm-575-leadership-event
                             "hello" - IEEE, the very first of its kind, organized by IEEE JU SB brings you the golden
                             opportunity to learn, connect and advance further towards your aspirations with the roadmap
                             to be provided by our global leaders who will grace the event.
-                            Thus, it fits the aforementioned description to the last syllable.
-                            Are you ready for it?
+                            
                         </p>
 
                         <!-- <a class="custom-btn custom-border-btn btn custom-link mt-3 me-3" href="#section_3">Meet Speakers</a>
@@ -1213,7 +1327,7 @@ https://templatemo.com/tm-575-leadership-event
           <div class="card-header">
             <h3>Why should I participate in MLAS 2.0?</h3>
           </div>
-          <div class="card-body">
+          <div class="panel">
             <p>
               <p class="feature-p">It will give you the
                 introductory push into the ML world, if you're a newcomer. The workshop will enable you to apply the
@@ -1227,7 +1341,7 @@ https://templatemo.com/tm-575-leadership-event
           <div class="card-header">
             <h3>What topics will be covered in the session?</h3>
           </div>
-          <div class="card-body">
+          <div class="panel">
             <p>
               <p class="feature-p">It will be revealed soon.
                  Let there be an element of suspense in the event, so that the anticipation does not die down.</p>
@@ -1241,7 +1355,7 @@ https://templatemo.com/tm-575-leadership-event
           <div class="card-header">
             <h3>What prerequisite knowledge do I need for this event?</h3>
           </div>
-          <div class="card-body">
+          <div class="panel">
             <p>
               <p class="feature-p">A basic knowledge of Python will be advantageous.</p>
             </br>
@@ -1255,7 +1369,7 @@ https://templatemo.com/tm-575-leadership-event
           <div class="card-header">
             <h3>Is this only for JU students?</h3>
           </div>
-          <div class="card-body">
+          <div class="panel">
             <p>
               <p class="feature-p">Yes. It is only for JU students.</p>
               </br>
@@ -1269,7 +1383,7 @@ https://templatemo.com/tm-575-leadership-event
           <div class="card-header">
             <h3>Can I attend this event virtually?</h3>
           </div>
-          <div class="card-body">
+          <div class="panel">
             <p>
               <p class="feature-p">Sorry, you cannot.
                 This is the 1st offline event of IEEE after the pandemic. We expect enthusiastic physical presence.</p>
@@ -1283,7 +1397,7 @@ https://templatemo.com/tm-575-leadership-event
           <div class="card-header">
             <h3>Who are the speakers?</h3>
           </div>
-          <div class="card-body">
+          <div class="panel">
             <p>
               <p class="feature-p">That will be revealed soon. Stay tuned!</p>
               </br>
@@ -1504,6 +1618,85 @@ https://templatemo.com/tm-575-leadership-event
                 </div>
             </div>
         </section>
+        <!-- FAQ SECTION -->
+       <section class="faq-section">
+<div class="container">
+  <div class="row">
+                    <!-- ***** FAQ Start ***** -->
+                    <div class="col-md-6 offset-md-3">
+
+                        <div class="faq-title text-center pb-3">
+                            <h2>FAQ</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 offset-md-3">
+                        <div class="faq" id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="faqHeading-1">
+                                    <div class="mb-0">
+                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1"  >
+                                            <span class="badge">1</span>Is the event exclusive to Jadavpur University students?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                    <div class="panel">
+                                        <p>The good news is that, Hello IEEE is open to students from all colleges and universities who wish to be a part of this one-of-a-kind global event.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faqHeading-2">
+                                    <div class="mb-0">
+                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                            <span class="badge">2</span>Can I participate alone? If not, then what should be the team size?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                    <div class="panel">
+                                        <p> No, you cannot participate in the events alone. 
+                                            The team should consist of maximum three members.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faqHeading-3">
+                                    <div class="mb-0">
+                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                            <span class="badge">3</span>Can I participate in both the quiz and the idea presentation events?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                    <div class="panel">
+                                        <p>Yes, you can participate in both the events. But if you get qualified for the Finale of either of them, you will have to forfeit the other one.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faqHeading-4">
+                                    <div class="mb-0">
+                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                            <span class="badge">4</span> What will I receive if I participate?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                    <div class="panel">
+                                        <p>Refreshments (or lunch) will be provided to all the attendees, besides a certificate of participation. Winners have enticing prizes in store!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                </section>
 
 
         <!-- <section class="contact section-padding" id="section_7">
@@ -1663,7 +1856,22 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-  
+
+var acc = document.getElementsByClassName("faq-title");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+
     </script>
 </body>
 
